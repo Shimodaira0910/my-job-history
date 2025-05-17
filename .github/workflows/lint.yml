@@ -16,5 +16,5 @@ jobs:
           node-version: 18
           cache: npm
           cache-dependency-path: docs/package-lock.json
-      - run: npm ci
-      - run: npm run lint
+      - run: npm ci --prefix docs
+      - run: npm run lint --prefix docs

@@ -1,0 +1,13 @@
+node_modules/
+
+.cache/
+.chache/
+.vite/
+dist/
+coverage/
+*.log
+
+
+.env*
+.DS_Store              # macOS のおみやげ
+Thumbs.db              # Windows のおみやげ
